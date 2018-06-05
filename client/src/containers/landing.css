@@ -6,22 +6,41 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding-bottom: 1em;
+    border: 3px solid red;
 }
 .headImages {
     width: 15em;
     height: 15em;
+    border: 3px solid blue;
 }
 .headTitle {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Quintessential', cursive;
+    border: 3px solid green;
+}
+.headTitle__large {
+    font-size: 6em;
+}
+.headTitle__small {
+    font-size: 2em;
 }
 .landingContent {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    border: 3px solid black;
+}
+.video {
+    border: 3px solid orange;
+}
+.history {
+    width: 575px;
+    border: 3px solid blue;
 }

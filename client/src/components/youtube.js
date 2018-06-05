@@ -4,19 +4,22 @@ import YouTube from 'react-youtube';
 class Youtube extends React.Component {
   render() {
     const opts = {
-      height: '200',
-      width: '400',
+      height: '300',
+      width: '300',
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 1
       }
     };
  
     return (
-      <YouTube
-        videoId="8Qmz-HfdeG0"
-        opts={opts}
-        onReady={this._onReady}
-      />
+      <div>
+        <h4> Welcome to LeRoy </h4>
+        <YouTube
+          videoId="8Qmz-HfdeG0"
+          opts={opts}
+          onReady={this._onReady}
+        />
+      </div>
     );
   }
  

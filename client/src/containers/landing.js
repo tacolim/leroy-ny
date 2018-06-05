@@ -11,8 +11,8 @@ const Landing = () => (
         <Carousel />
       </div>
       <div className="headTitle">
-        <h2>LeRoy, NY</h2>
-        <h4>14482</h4>
+        <div className="headTitle__large">LeRoy, NY</div>
+        <div className="headTitle__small">14482</div>
       </div>
     </div>
     <div className="landingContent">
